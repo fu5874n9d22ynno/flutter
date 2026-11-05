@@ -6,16 +6,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-    allow:
-      - dependency-name: "actions/*"
-      - dependency-name: "google-github-actions/*"
-    groups:
-      all-github-actions:
-        patterns: [ "*" ]
+      interval: "
     reviewers:
-      - "jmagman"
-      - "jtmcdole"
     labels:
       - "team-infra"
       - "autosubmit"
